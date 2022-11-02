@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Anri Kawamoto</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html"><img src="img/home.png" alt="Home">
-                    <p>Home</p>
+                    <p id="nav-link">Home</p>
                 </a></li>
                 <li><a href="#profile"><img src="img/profile.png" alt="Profile">
-                    <p>Profile</p>
+                    <p id="nav-link">Profile</p>
                 </a></li>
                 <li><a href="#skill"><img src="img/skill.png" alt="Skill">
-                    <p>Skill</p>
+                    <p id="nav-link">Skill</p>
                 </a></li>
                 <li><a href="#projects"><img src="img/projects.png" alt="Projects">
-                    <p>Projects</p>
+                    <p id="nav-link">Projects</p>
                 </a></li>
                 <li><a href="#contact"><img src="img/contact.png" alt="Contact">
-                    <p>Contact</p>
+                    <p id="nav-link">Contact</p>
                 </a></li>
             </ul>
         </nav>
@@ -60,7 +61,7 @@
                         <a href="" target="_blank"><img src="img/portfolio.png" alt="ポートフォリオ"></a>
                         <h3>ポートフォリオ</h3>
                         <p>私のポートフォリオです。</p>
-                        <p>HTML / CSS</p>
+                        <p>HTML / CSS / JQuery</p>
                         <div class="project-links">
                             <p class="project-link"><a href="" target="_blank">Website</a></p>
                             <p class="project-link"><a href="https://github.com/anrikawamoto/portfolio2022.git" target="_blank">GitHub</a></p>
@@ -103,25 +104,26 @@
                 </div>
             </section>
         </div>
+        <div id="page_top"><a href="#">Top</a></div>
     </main>
 
     <footer>        
         <div class="footer-link">
             <ul>
                 <li><a href="index.html">
-                    <p>Home</p>
+                    <p id="nav-link">Home</p>
                 </a></li>
                 <li><a href="#profile">
-                    <p>Profile</p>
+                    <p id="nav-link">Profile</p>
                 </a></li>
                 <li><a href="#skill">
-                    <p>Skill</p>
+                    <p id="nav-link">Skill</p>
                 </a></li>
                 <li><a href="#projects">
-                    <p>Projects</p>
+                    <p id="nav-link">Projects</p>
                 </a></li>
                 <li><a href="#contact">
-                    <p>Contact</p>
+                    <p id="nav-link">Contact</p>
                 </a></li>
             </ul>
         </div>
@@ -129,6 +131,9 @@
             <p>© Anri Kawamoto All rights reserved</p>
         </div>
     </footer>
+
+<!-- jQueryの読み込み -->
+<script src="script.js"></script>
 
 </body>
 </html>
